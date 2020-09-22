@@ -27,7 +27,7 @@ function NewTicketForm(props){
     <React.Fragment>
       <ReusableForm 
         formSubmissionHandler={addTicketToFirestore}
-        buttonText="Add ticket" />
+        buttonText="Add new ticket" />
     </React.Fragment>
   );
 }
